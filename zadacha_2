@@ -1,0 +1,8 @@
+def PLOSHADY(a, b):
+    return a * b
+print("Введите ширину прямоугольника в сантиметрах: ")
+a = int(input())
+print("Введите высоту прямоугольника в сантиметрах: ")
+b = int(input())
+S = PLOSHADY(a, b)
+print("Ответ", S)
